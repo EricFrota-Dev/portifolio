@@ -36,11 +36,14 @@ const Hero = () => {
             </div>
             <motion.div className="objectives" variants={scrollAnimation}>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Commodi error deserunt ratione nisi sit doloremque soluta iste
-                dolores officiis nemo! Itaque maxime quaerat iusto vero facilis
-                non fuga earum assumenda.dolores officiis nemo! Itaque maxime
-                quaerat iusto vero facilis non fuga earum assumenda.
+                Apaixonado por transformar ideias em soluções digitais
+                eficientes e inovadoras.
+                <p>
+                  Com foco em desenvolvimento tanto no front-end quanto no
+                  back-end, meu objetivo é criar aplicações robustas, escaláveis
+                  e intuitivas que proporcionem uma excelente experiência ao
+                  usuário.
+                </p>
               </p>
             </motion.div>
             <motion.div

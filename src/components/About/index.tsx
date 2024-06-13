@@ -60,17 +60,22 @@ const About = () => {
             </motion.h1>
             <motion.h2 variants={scrollAnimation}>-Eric Alves Frota</motion.h2>
             <motion.p variants={scrollAnimation}>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-              commodi iusto reiciendis perferendis voluptatem alias, excepturi
-              qui consequatur? Necessitatibus, animi pariatur quos quam dolore
-              quae error dolor reprehenderit illo exercitationem! <br />
-              <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusamus aut minima quo id fugiat temporibus dolores quam quidem
-              accusantium suscipit?
-              <br />
-              <br />
-              Dignissimos odio, asperiores atque tenetur distinctio repudiandae.
-              Laudantium, repellat quam!
+              Um designer em transição para desenvolvedor Fullstack. Sempre
+              adorei desafios e encontrei no desenvolvimento uma nova paixão.
+              <p>
+                <br />
+                Inicialmente, planejava focar apenas no front-end, encantado com
+                a criação de interfaces dinâmicas e intuitivas. Porém, ao
+                explorar o back-end, fui desafiado de maneiras que nunca
+                imaginei e acabei me apaixonando por essa área também.
+                inovadoras.
+              </p>
+              <p>
+                <br />
+                Agora, como Fullstack, estou animado para unir minhas
+                habilidades de design e desenvolvimento para criar soluções
+                completas e
+              </p>
             </motion.p>
           </motion.div>
         </motion.div>
