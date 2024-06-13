@@ -73,7 +73,7 @@ const About = () => {
                 <br />
                 Agora, como Fullstack, estou animado para unir minhas
                 habilidades de design e desenvolvimento para criar soluções
-                completas e
+                completas e sólidas.
               </p>
             </motion.p>
           </motion.div>
