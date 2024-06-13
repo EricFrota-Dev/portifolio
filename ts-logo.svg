@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="8.5146mm" height="8.5146mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 9.59 9.59"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="722" font-variant="normal" style="fill-rule:nonzero" font-weight="700">
+	<font-face 
+		font-family="Arial">
+		<font-face-src>
+			<font-face-name name="Arial Negrito"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="T" horiz-adv-x="610" d="M234.009 0l0 595.002 -212.018 0 0 121.008 568.004 0 0 -121.008 -211.002 0 0 -595.002 -144.983 0z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Arial";font-variant:normal;font-weight:bold;src:url("#FontID0") format(svg)}
+    .fil0 {fill:none}
+    .fil2 {fill:white}
+    .fil1 {fill:white;fill-rule:nonzero}
+    .fnt0 {font-weight:bold;font-size:4.88px;font-family:'Arial'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2650951765520">
+   <rect class="fil0" y="0" width="9.59" height="9.59"/>
+   <path class="fil1" d="M5.45 7.25c0.21,-0.12 0.39,-0.23 0.59,-0.35 0.05,0.06 0.09,0.11 0.13,0.15 0.18,0.22 0.42,0.3 0.7,0.26 0.16,-0.02 0.29,-0.08 0.33,-0.26 0.04,-0.18 -0.06,-0.29 -0.2,-0.37 -0.26,-0.13 -0.53,-0.24 -0.78,-0.38 -0.44,-0.24 -0.63,-0.69 -0.51,-1.15 0.14,-0.53 0.69,-0.83 1.31,-0.69 0.32,0.07 0.56,0.25 0.73,0.57 -0.18,0.12 -0.36,0.23 -0.52,0.34 -0.15,-0.1 -0.27,-0.2 -0.41,-0.25 -0.15,-0.05 -0.32,-0.02 -0.38,0.15 -0.07,0.18 -0,0.33 0.17,0.42 0.26,0.13 0.54,0.25 0.8,0.39 0.35,0.2 0.55,0.49 0.55,0.91 -0.01,0.45 -0.22,0.77 -0.65,0.92 -0.58,0.21 -1.28,0.06 -1.65,-0.37 -0.07,-0.08 -0.12,-0.17 -0.19,-0.27z"/>
+   <g transform="matrix(1 0 0 1 427.956 -26.8845)">
+    <text x="-425.73" y="34.87"  class="fil2 fnt0">T</text>
+   </g>
+  </g>
+ </g>
+</svg>
