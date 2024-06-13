@@ -1,0 +1,36 @@
+.navbar {
+  height: 100px;
+  position: relative;
+  .background {
+    right: 50%;
+    transform: translate(50%);
+    position: absolute;
+    width: 200vw;
+    height: 100px;
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .wrapper {
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+
+    span {
+      font-weight: bold;
+    }
+
+    .social {
+      display: flex;
+      gap: 20px;
+
+      img {
+        width: 30px;
+        height: 30px;
+        opacity: 0.5;
+      }
+    }
+  }
+}

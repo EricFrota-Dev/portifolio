@@ -1,0 +1,114 @@
+@import "../../app.scss";
+
+.footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  font-size: 0.8rem;
+  @include tablet {
+    flex-direction: column-reverse;
+  }
+  .background {
+    position: absolute;
+    width: 100vw;
+    height: 105%;
+    background-color: #161616;
+    z-index: -30;
+    right: 50%;
+    transform: translate(50%);
+  }
+  .more,
+  .email_container {
+    height: 100%;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    @include mobile {
+      width: 300px;
+    }
+
+    h1 {
+      font-weight: 500;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      div {
+        position: relative;
+        input,
+        textarea,
+        button {
+          padding: 4px;
+          border-radius: 10px;
+          width: 100%;
+          height: 40px;
+        }
+        p {
+          position: absolute;
+          top: -23px;
+          color: rgb(255, 37, 37);
+        }
+        textarea {
+          height: 100px;
+        }
+      }
+      button {
+        padding: 4px;
+        border-radius: 10px;
+        width: 100%;
+        height: 40px;
+      }
+
+      button {
+        font-size: 1rem;
+        font-weight: 300;
+        background-color: $second-color;
+        color: #fff;
+      }
+    }
+  }
+  .more {
+    height: 334px;
+    @include tablet {
+      flex-direction: row;
+      height: 200px;
+    }
+    .social {
+      display: flex;
+      flex-direction: column;
+      @include tablet {
+        height: 200px;
+        justify-content: center;
+      }
+
+      a {
+        span {
+          font-weight: 600;
+        }
+        text-align: center;
+        img {
+          align-self: center;
+          width: 30px;
+          height: 30px;
+          opacity: 0.5;
+        }
+      }
+    }
+    .location {
+      @include tablet {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      h1,
+      p {
+        text-align: center;
+      }
+    }
+  }
+}

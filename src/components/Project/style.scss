@@ -1,0 +1,126 @@
+@import "../../app.scss";
+
+.project {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
+  .content {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    @include tablet {
+      flex-direction: column-reverse;
+      height: auto;
+    }
+
+    .sample_video,
+    .project_text {
+      width: 420px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      @include tablet {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        gap: 20px;
+      }
+
+      .video {
+        margin-top: 40px;
+        width: 100%;
+        height: 260px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        border-radius: 20px;
+        background-color: #2d2d30;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
+      }
+      a {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        .repo_link {
+          font-size: 1.6rem;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+      }
+      h1 {
+        span {
+          font-size: 3rem;
+          font-weight: 700;
+        }
+      }
+    }
+    .reverse_title {
+      left: 0;
+    }
+    .background_title {
+      pointer-events: none;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      opacity: 0.02;
+      position: absolute;
+      font-weight: 600;
+      font-size: 10rem;
+      bottom: -65px;
+      right: 0;
+      @include tablet {
+        font-size: 5rem;
+        right: 50%;
+        transform: translate(50%);
+        bottom: 300px;
+      }
+      @include mobile {
+        bottom: 400px;
+        font-size: 4.5rem;
+      }
+    }
+  }
+  .tecnologies {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100px;
+    width: 100vw;
+    background: linear-gradient(to right, #1b1b1f, #221c2c, #1b1b1f);
+    bottom: 160px;
+    @include tablet {
+      bottom: 80px;
+    }
+    @include mobile {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      height: 200px;
+      bottom: -240px;
+    }
+    img {
+      height: 80px;
+      width: 80px;
+      box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+      background-color: #282133;
+    }
+  }
+}

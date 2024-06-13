@@ -1,0 +1,136 @@
+@import "../../app.scss";
+
+.hero {
+  width: 100%;
+  display: flex;
+  margin-top: 100px;
+  @include tablet {
+    margin-top: 0;
+  }
+
+  .wrapper {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    @include tablet {
+      flex-direction: column;
+      height: auto;
+    }
+    .content {
+      width: 100%;
+      height: 560px;
+      display: flex;
+      justify-content: space-between;
+      @include tablet {
+        flex-direction: column;
+        height: auto;
+      }
+
+      .text_container {
+        margin-top: 10px;
+        width: 560px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        @include tablet {
+          width: 100%;
+          height: auto;
+          gap: 20px;
+          align-items: center;
+        }
+
+        .focus_text {
+          position: relative;
+          .hello_icon {
+            color: $second-color;
+            position: absolute;
+            left: 40px;
+            top: -10px;
+            font-size: 3rem;
+          }
+          h1 {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            height: 81px;
+            font-weight: 700;
+            font-size: 5rem;
+            @include tablet {
+              font-size: 4.8rem;
+            }
+            @include mobile {
+              font-size: 3rem;
+            }
+          }
+          h2 {
+            font-size: 2rem;
+            font-weight: 200;
+            @include tablet {
+              font-size: 2.7rem;
+            }
+            @include mobile {
+              font-size: 1.5rem;
+            }
+          }
+          h3 {
+            font-style: italic;
+            font-size: 2rem;
+            font-weight: 200;
+            @include tablet {
+              font-size: 2.7rem;
+            }
+            @include mobile {
+              font-size: 1.6rem;
+            }
+            span {
+              font-weight: 200;
+            }
+          }
+        }
+        .buttons_container {
+          height: 80px;
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          @include tablet {
+            gap: 15px;
+            justify-content: space-around;
+          }
+        }
+      }
+      .image_container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        @include tablet {
+          margin-top: 40px;
+          width: 100%;
+          align-items: center;
+        }
+        h3 {
+          text-align: center;
+          @include tablet {
+            margin-top: 10px;
+          }
+        }
+        img {
+          height: 400px;
+          @include tablet {
+            height: 200px;
+            width: 160px;
+          }
+        }
+        .icon_container {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          height: 40px;
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}
