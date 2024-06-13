@@ -8,7 +8,7 @@ const Social = () => {
         target="_blank">
         <motion.img
           whileHover={{ scale: 1.02, opacity: 1 }}
-          src="/whatsapp-logo.svg"
+          src="/portifolio/whatsapp-logo.svg"
         />
       </a>
       <a
@@ -16,13 +16,13 @@ const Social = () => {
         target="_blank">
         <motion.img
           whileHover={{ scale: 1.02, opacity: 1 }}
-          src="/linkedin-logo.svg"
+          src="/portifolio/linkedin-logo.svg"
         />
       </a>
       <a href="https://github.com/EricFrota-Dev" target="_blank">
         <motion.img
           whileHover={{ scale: 1.02, opacity: 1 }}
-          src="/github-logo.svg"
+          src="/portifolio/github-logo.svg"
         />
       </a>
     </>

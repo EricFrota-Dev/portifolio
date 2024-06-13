@@ -6,33 +6,16 @@ import {
   scrollAnimation,
 } from "../../assets/animations/animations";
 import { FaLongArrowAltRight } from "react-icons/fa";
+import Techs, { TechsProps } from "../Techs";
 
 interface ProjectProps {
   reverse: boolean;
   title: string;
   videoUrl: string;
   description: string[];
-  techs: string[];
+  techs: (keyof TechsProps)[];
   projectUrl: string;
 }
-interface TechLogo {
-  src: string;
-  alt: string;
-}
-
-const techLogos: { [key: string]: TechLogo } = {
-  js: { src: "/js-logo.svg", alt: "js" },
-  html: { src: "html-logo.svg", alt: "html" },
-  css: { src: "css-logo.svg", alt: "css" },
-  node: { src: "node-logo.svg", alt: "nodejs" },
-  ts: { src: "ts-logo.svg", alt: "ts" },
-  python: { src: "python-logo.svg", alt: "python" },
-  react: { src: "react-logo.svg", alt: "reactjs" },
-  tailwind: { src: "tailwind-logo.svg", alt: "tailwind" },
-  scss: { src: "scss-logo.svg", alt: "scss" },
-  mongodb: { src: "mongodb-logo.svg", alt: "mongodb" },
-  mysql: { src: "mysql-logo.svg", alt: "mysql" },
-};
 
 const Project = ({
   reverse,
@@ -95,16 +78,9 @@ const Project = ({
         variants={scrollAnimation}
         initial="bottom_initial"
         whileInView="bottom_animate">
-        {techs.map(
-          (tech) =>
-            techLogos[tech] && (
-              <img
-                key={tech}
-                src={techLogos[tech].src}
-                alt={techLogos[tech].alt}
-              />
-            )
-        )}
+        {techs.map((tech) => (
+          <Techs key={tech} tech={tech} />
+        ))}
       </motion.div>
     </div>
   );

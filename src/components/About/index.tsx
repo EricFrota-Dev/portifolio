@@ -4,6 +4,21 @@ import {
   scrollAnimation,
   animations,
 } from "../../assets/animations/animations";
+import Techs, { TechsProps } from "../Techs";
+
+const techs: (keyof TechsProps)[] = [
+  "js",
+  "html",
+  "scss",
+  "node",
+  "react",
+  "mysql",
+  "css",
+  "mongodb",
+  "python",
+  "ts",
+  "tailwind",
+];
 
 const About = () => {
   return (
@@ -22,17 +37,9 @@ const About = () => {
           initial="left_initial"
           whileInView="left_animate">
           <motion.div className="tech" variants={scrollAnimation}>
-            <img src="/js-logo.svg" alt="js" />
-            <img src="html-logo.svg" alt="html" />
-            <img src="css-logo.svg" alt="css" />
-            <img src="node-logo.svg" alt="nodejs" />
-            <img src="ts-logo.svg" alt="ts" />
-            <img src="python-logo.svg" alt="python" />
-            <img src="react-logo.svg" alt="reactjs" />
-            <img src="tailwind-logo.svg" alt="tailwind" />
-            <img src="scss-logo.svg" alt="scss" />
-            <img src="mongodb-logo.svg" alt="mongodb" />
-            <img src="mysql-logo.svg" alt="mysql" />
+            {techs.map((tech) => (
+              <Techs key={tech} tech={tech} />
+            ))}
           </motion.div>
           <motion.h1 variants={scrollAnimation}>
             <motion.span variants={animations} animate="blink">

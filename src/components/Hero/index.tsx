@@ -66,8 +66,8 @@ const Hero = () => {
             initial="bottom_initial"
             whileInView="bottom_animate">
             <motion.img
-              src="/minha-foto.png"
-              alt=""
+              src="/portifolio/minha-foto.png"
+              alt="minha foto"
               variants={scrollAnimation}
             />
             <h3>Sobre mim</h3>

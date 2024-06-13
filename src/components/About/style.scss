@@ -70,14 +70,6 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         gap: 10px;
-        img {
-          box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
-          border-radius: 15px;
-          background-color: #282133;
-          width: 100%;
-          justify-self: center;
-          align-self: center;
-        }
       }
     }
     .side_left {
