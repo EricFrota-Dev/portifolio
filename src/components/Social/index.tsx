@@ -4,7 +4,7 @@ const Social = () => {
   return (
     <>
       <a
-        href={`https://wa.me/5517992476327?text=${encodeURIComponent(text)}`}
+        href={`https://wa.me/5517992585165?text=${encodeURIComponent(text)}`}
         target="_blank">
         <motion.img
           whileHover={{ scale: 1.02, opacity: 1 }}
