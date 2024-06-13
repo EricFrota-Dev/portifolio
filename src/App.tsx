@@ -6,6 +6,8 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Project from "./components/Project";
 import getRepositories from "./services/getProjects";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 interface ProjectData {
   name: string;
@@ -16,6 +18,10 @@ interface ProjectData {
 
 function App() {
   const [projectData, setProjectData] = useState<ProjectData | null>(null);
+
+  function notify() {
+    toast.success("e-mail enviado com sucesso :)");
+  }
 
   useEffect(() => {
     const fetchProjectData = async () => {
@@ -54,6 +60,7 @@ function App() {
 
   return (
     <>
+      <ToastContainer theme="dark" />
       <section id="home">
         <Navbar />
         <Hero />
@@ -92,7 +99,7 @@ function App() {
         />
       </section>
       <section id="contact">
-        <Footer />
+        <Footer notify={notify} />
       </section>
     </>
   );
