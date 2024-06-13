@@ -68,7 +68,6 @@ const About = () => {
                 a criação de interfaces dinâmicas e intuitivas. Porém, ao
                 explorar o back-end, fui desafiado de maneiras que nunca
                 imaginei e acabei me apaixonando por essa área também.
-                inovadoras.
               </p>
               <p>
                 <br />

@@ -83,7 +83,7 @@ function App() {
           reverse={true}
           title="Coming soon"
           description={projectData.lorem}
-          videoUrl="/"
+          videoUrl=""
           techs={["js", "html", "scss", "node", "react", "mysql"]}
           projectUrl="#"
         />
@@ -93,7 +93,7 @@ function App() {
           reverse={false}
           title="Coming soon"
           description={projectData.lorem}
-          videoUrl="/"
+          videoUrl=""
           projectUrl="#"
           techs={["python", "html", "scss", "node", "mysql"]}
         />
