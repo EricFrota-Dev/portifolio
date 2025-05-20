@@ -11,7 +11,9 @@ import Techs, { TechsProps } from "../Techs";
 interface ProjectProps {
   reverse: boolean;
   title: string;
-  videoUrl: string;
+  videoUrl?: string;
+  imgUrl?: string;
+  demo?: string;
   description: string[];
   techs: (keyof TechsProps)[];
   projectUrl: string;
@@ -21,6 +23,8 @@ const Project = ({
   reverse,
   title,
   videoUrl,
+  imgUrl,
+  demo,
   projectUrl,
   description,
   techs,
@@ -37,13 +41,27 @@ const Project = ({
           initial={!reverse ? "left_initial" : "right_initial"}
           whileInView={!reverse ? "left_animate" : "right_animate"}>
           <div className="video">
-            <ReactPlayer
-              className="video_player"
-              url={videoUrl}
-              width="100%"
-              height="100%"
-              controls
-            />
+            {videoUrl && (
+              <ReactPlayer
+                className="video_player"
+                url={videoUrl}
+                width="100%"
+                height="100%"
+                controls
+              />
+            )}
+            {imgUrl && (
+              <a href={demo} target="_blank">
+                <motion.img
+                  className="img_player"
+                  src={imgUrl}
+                  width="100%"
+                  height="auto"
+                  alt="minha foto"
+                  variants={scrollAnimation}
+                />
+              </a>
+            )}
           </div>
           <a href={projectUrl} target="_blank">
             <motion.span
