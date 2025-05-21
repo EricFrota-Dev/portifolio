@@ -8,6 +8,7 @@
   justify-content: space-around;
   align-items: center;
   position: relative;
+  padding-bottom: 80px;
   font-size: 0.8rem;
   @include tablet {
     flex-direction: column-reverse;
@@ -23,10 +24,10 @@
   }
   .more,
   .email_container {
-    height: 100%;
     width: 420px;
     display: flex;
     flex-direction: column;
+    gap: 30px;
     justify-content: space-around;
     @include mobile {
       width: 300px;

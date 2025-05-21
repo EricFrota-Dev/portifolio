@@ -96,7 +96,7 @@ function App() {
           ]}
           demo="https://github.com/EricFrota-Dev/ClickBuy"
           imgUrl="/portifolio/clickbuy.png"
-          techs={["js", "html", "scss", "node", "react", "mysql"]}
+          techs={["python", "Flask", "js", "html", "css", "postgres"]}
           projectUrl="https://github.com/EricFrota-Dev/ClickBuy"
         />
       </section>
@@ -111,7 +111,7 @@ function App() {
           ]}
           videoUrl="https://www.youtube.com/watch?v=CJoELXGwm3w"
           projectUrl="https://github.com/EricFrota-Dev/memo"
-          techs={["python", "html", "scss", "node", "mysql"]}
+          techs={["react", "ts", "html", "tailwind", "node", "mongodb"]}
         />
       </section>
       <section id="contact">

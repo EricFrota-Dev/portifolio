@@ -17,6 +17,9 @@ export interface TechsProps {
   python: string;
   ts: string;
   tailwind: string;
+  Flask: string;
+  postgres: string;
+  prisma: string;
 }
 
 const techs: TechsProps = {
@@ -31,6 +34,9 @@ const techs: TechsProps = {
   python: "python",
   ts: "type script",
   tailwind: "tailwind",
+  Flask: "Flask",
+  postgres: "postgres",
+  prisma: "prisma",
 };
 
 const Index = ({ tech }: TechProps) => {
