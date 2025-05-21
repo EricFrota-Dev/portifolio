@@ -104,7 +104,7 @@ function App() {
       <section id="project3">
         <Project
           reverse={false}
-          title="Coming soon"
+          title="Memo"
           description={[
             "A CRUD de memorização inspirada no aplicativo Anki permite criar decks e cards para o estudo de inglês.",
             "Personalize seus cards adicionando palavras que deseja memorizar, e o sistema automaticamente monta o card com traduções e significados.",
