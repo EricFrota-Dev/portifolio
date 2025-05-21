@@ -18,6 +18,8 @@ const techs: (keyof TechsProps)[] = [
   "python",
   "ts",
   "tailwind",
+  "Flask",
+  "postgres",
 ];
 
 const About = () => {
